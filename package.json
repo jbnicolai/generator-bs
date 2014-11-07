@@ -1,13 +1,13 @@
 {
   "name": "generator-bs",
-  "version": "0.0.0",
-  "description": "Yeoman generator",
+  "version": "0.1.1",
+  "description": "Yeoman generator to generate twitter bootstrap project",
   "license": "MIT",
   "main": "app/index.js",
   "repository": "surajair/generator-bs",
   "author": {
-    "name": "",
-    "email": "",
+    "name": "Suraj Air",
+    "email": "surajair@live.com",
     "url": "https://github.com/surajair"
   },
   "engines": {
@@ -20,7 +20,8 @@
     "app"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "bootstrap generator"
   ],
   "dependencies": {
     "yeoman-generator": "^0.17.0",
