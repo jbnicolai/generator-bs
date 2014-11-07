@@ -32,11 +32,9 @@ var BsGenerator = yeoman.generators.Base.extend({
 
     writing: {
         app: function() {
-            this.dest.mkdir('css');
-            this.dest.mkdir('css/less');
-            this.dest.mkdir('js');
-            this.dest.mkdir('js/coffee');
-            this.dest.mkdir('templates');
+            this.directory('css', 'css');
+            this.directory('js', 'js');
+           	this.directory('templates', 'templates');
 
             this.template('_package.json', 'package.json');
             this.template('_bower.json', 'bower.json');
@@ -45,6 +43,7 @@ var BsGenerator = yeoman.generators.Base.extend({
         projectfiles: function() {
             this.src.copy('editorconfig', '.editorconfig');
             this.src.copy('jshintrc', '.jshintrc');
+            this.src.copy('Gruntfile.coffee', 'Gruntfile.coffee');
         }
     },
 

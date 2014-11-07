@@ -1,0 +1,33 @@
+// Load LessHat mixin library
+// --------------------------------------------------------
+@import "../../bower_components/lesshat/build/lesshat.less";
+
+// Load core mixins and variables from bootstrap
+// NOTE: Do not use the .bg-variant() and .text-emphasis-variant() mixin
+// Details here: https://github.com/twbs/bootstrap/issues/15038
+// Although you can use it with a dirty hack :P
+// --------------------------------------------------------
+@import "../../bower_components/bootstrap/less/variables.less";
+@import "../../bower_components/bootstrap/less/mixins.less";
+
+// Load theme variables
+// --------------------------------------------------------
+@import "less/variables.less";
+
+// Extra small devices (phones, less than 768px)
+// No media query since this is the default in Bootstrap3+
+// Mobile first approach
+// --------------------------------------------------------
+@import "less/styles.less";
+
+// Small devices (tablets, 768px and up)
+// --------------------------------------------------------
+@import "less/screen-sm-min.less";
+
+// Medium devices (desktops, 992px and up)
+// --------------------------------------------------------
+@import "less/screen-md-min.less";
+
+// Large devices (large desktops, 1200px and up)
+// --------------------------------------------------------
+@import "less/screen-lg-min.less";
