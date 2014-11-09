@@ -3,6 +3,8 @@ var util = require('util');
 var path = require('path');
 var yeoman = require('yeoman-generator');
 var yosay = require('yosay');
+var _s = require('underscore.string');
+
 
 var BsGenerator = yeoman.generators.Base.extend({
     initializing: function() {
@@ -24,7 +26,7 @@ var BsGenerator = yeoman.generators.Base.extend({
         }];
 
         this.prompt(prompts, function(props) {
-            this.projectname = props.projectname;
+            this.projectname = _s.slugify( props.projectname );
 
             done();
         }.bind(this));
