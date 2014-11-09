@@ -1,6 +1,6 @@
 {
   "name": "generator-bs",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Yeoman generator to generate twitter bootstrap project",
   "license": "MIT",
   "main": "app/index.js",
@@ -26,11 +26,11 @@
   "dependencies": {
     "yeoman-generator": "^0.17.0",
     "chalk": "^0.5.0",
-    "yosay": "^0.3.0"
+    "yosay": "^0.3.0",
+    "underscore.string": "^2.3.3"
   },
   "devDependencies": {
-    "mocha": "*",
-    "underscore.string": "^2.3.3"
+    "mocha": "*"
   },
   "peerDependencies": {
     "yo": ">=1.0.0"
