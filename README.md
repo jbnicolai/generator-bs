@@ -8,7 +8,7 @@
 npm install -g yo
 ``` 
 
-#### 2. Install botstrap project generator
+#### 2. Install bootstrap project generator
 
 To install generator-bs from npm, run:
 
@@ -19,9 +19,15 @@ npm install -g generator-bs
 Finally, initiate the generator:
 
 ```bash
+mkdir project_dir && cd $_
 yo bs
 ```
 
+Start development.
+
+```bash
+grunt dev
+```
 
 ## License
 
