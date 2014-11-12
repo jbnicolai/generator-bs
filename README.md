@@ -1,8 +1,5 @@
-# Yeoman Bootstrap Project Generator 
-Start bootstrap development with preconfigured: <br />
-1 - LESS (http://lesscss.org/) <br />
-2 - Grunt [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)<br />
-3 - Html templating with mozilla nunjucks(http://mozilla.github.io/nunjucks/)
+# An Yeoman Generator for Bootstrap Projects, preconfigured with LESS,Grunt and HTML Templating with Mozilla Nunjucks. An easy and quick way to setup responsive web projects 
+
 
 ## Getting Started
 
