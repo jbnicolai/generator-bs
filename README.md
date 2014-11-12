@@ -1,4 +1,4 @@
-# An Yeoman Generator for Bootstrap Projects, preconfigured with [LESS] (http://lesscss.org/),[Grunt] (http://gruntjs.com/) and HTML Templating with [Mozilla Nunjucks] (http://mozilla.github.io/nunjucks/). An easy and quick way to setup responsive web projects 
+# An Yeoman Generator for Bootstrap Projects, preconfigured with [LESS] (http://lesscss.org/),[Grunt] (http://gruntjs.com/) and HTML Templating with [Mozilla Nunjucks] (http://mozilla.github.io/nunjucks/). It can be used for an quick way to setup responsive web projects. 
 
 
 ## Getting Started
