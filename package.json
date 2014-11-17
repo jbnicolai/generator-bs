@@ -1,6 +1,6 @@
 {
   "name": "generator-bs",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Yeoman generator to generate twitter bootstrap project",
   "license": "MIT",
   "main": "app/index.js",
