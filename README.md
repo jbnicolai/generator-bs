@@ -6,6 +6,8 @@
  - Font Awesome option
  - Built in [Grunt](http://gruntjs.com/) 
  - HTML Templating with [Mozilla Nunjucks](http://mozilla.github.io/nunjucks/)
+ - Live reload :)
+ - Coffee Script support for custom scripting (if you are coffee script fan... )
 
 It can be used as a quick way to setup responsive bootstrap projects. 
 
