@@ -23,11 +23,16 @@ var BsGenerator = yeoman.generators.Base.extend({
             name: 'projectname',
             message: 'Project Name?',
             default: ''
+        }, {
+            type: 'confirm',
+            name: 'fontAwesomeInstall',
+            message: 'Install font awesome?',
+            default: true
         }];
 
         this.prompt(prompts, function(props) {
-            this.projectname = _s.slugify( props.projectname );
-
+            this.projectname = _s.slugify(props.projectname);
+            this.fontAwesomeInstall = props.fontAwesomeInstall;
             done();
         }.bind(this));
     },
@@ -36,7 +41,7 @@ var BsGenerator = yeoman.generators.Base.extend({
         app: function() {
             this.directory('css', 'css');
             this.directory('js', 'js');
-           	this.directory('templates', 'templates');
+            this.directory('templates', 'templates');
 
             this.template('_package.json', 'package.json');
             this.template('_bower.json', 'bower.json');
