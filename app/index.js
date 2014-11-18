@@ -28,11 +28,17 @@ var BsGenerator = yeoman.generators.Base.extend({
             name: 'fontAwesomeInstall',
             message: 'Install font awesome?',
             default: true
+        }, {
+            type: 'confirm',
+            name: 'modernizrInstall',
+            message: 'Install Modernizr.js? (optional)',
+            default: false
         }];
 
         this.prompt(prompts, function(props) {
             this.projectname = _s.slugify(props.projectname);
             this.fontAwesomeInstall = props.fontAwesomeInstall;
+            this.modernizrInstall = props.modernizrInstall;
             done();
         }.bind(this));
     },
