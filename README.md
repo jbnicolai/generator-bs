@@ -1,4 +1,13 @@
-# An Yeoman Generator for Bootstrap Projects, preconfigured with [LESS] (http://lesscss.org/),[Grunt] (http://gruntjs.com/) and HTML Templating with [Mozilla Nunjucks] (http://mozilla.github.io/nunjucks/). It can be used for an quick way to setup responsive web projects. 
+# An Yeoman Generator for Bootstrap Projects:
+
+ - [LESS](http://lesscss.org/)
+ - Bootstrap mixins
+ - [Lesshat](http://lesshat.madebysource.com/) mixins
+ - Font Awesome option
+ - Built in [Grunt](http://gruntjs.com/) 
+ - HTML Templating with [Mozilla Nunjucks](http://mozilla.github.io/nunjucks/)
+
+It can be used as a quick way to setup responsive bootstrap projects. 
 
 
 ## Getting Started
@@ -31,11 +40,40 @@ Start development.
 # run grunt command to start development
 grunt dev
 ```
+Start editing the **```templates/index.html```** file
+
+###**Follow the mobile first approach ( [read more](http://code.tutsplus.com/tutorials/mobile-first-with-bootstrap-3--net-34808) )**
+
+Use **```css/less/variables.less```** to define less variables
+
+Use **```css/less/styles.less```** to define generic css
+
+Use **```css/less/screen-*-min.less```** to define media query specific css
+
+Use Mixins:
+```
+	// less/variables.less
+	@my-btn-color:  #000;
+	@my-btn-bg-color: #CCEEFF;
+	@my-btn-border: #AAEECC;
+
+	// less/styles.less
+	.my-custom-btn{
+    	.button-variant(@my-btn-color; @my-btn-bg-color; @my-btn-border);
+    	.box-shadow(4px 4px 2px #888888);
+    	font-weight : bold;
+	}
+
+	// templates/index.html
+	<button class="btn my-custom-btn">My Button</button>
+	
+```
+
 -----------
 
 ###Todo: 
-1 - Grunt task for distribution build <br />
-2 - SASS support <br />
+- Grunt task for distribution build
+- SASS support
 
 ###Issue Tracking:
 Please log any issues or suggesstions @ https://github.com/surajair/generator-bs/issues
