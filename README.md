@@ -75,7 +75,8 @@ Use Mixins:
 
 ###Todo: 
 - Grunt task for distribution build
-- SASS support
+- Ability to choose responsive menu plugin
+- Support multiple pages instead of only index.html
 
 ###Issue Tracking:
 Please log any issues or suggesstions @ https://github.com/surajair/generator-bs/issues
