@@ -24,7 +24,7 @@ module.exports = (grunt)->
 		less :
 			develop :
 				files:
-					"./css/style-responsive.css" : ["./css/style-responsive.less"]
+					"./css/style-responsive.css" : ["./css/less/style-responsive.less"]
 
 		'html-prettyprinter' :
 			compiled :

@@ -4,8 +4,8 @@
  - Bootstrap mixins
  - [Lesshat](http://lesshat.madebysource.com/) mixins
  - Font Awesome option
- - Built in [Grunt](http://gruntjs.com/) 
- - HTML Templating with [Mozilla Nunjucks](http://mozilla.github.io/nunjucks/)
+ - Preconfigured [Grunt](http://gruntjs.com/) tasks
+ - HTML Templating for better [reuse of templates](http://mozilla.github.io/nunjucks/)
  - Live reload :)
  - Coffee Script support for custom scripting (if you are coffee script fan... )
 
@@ -48,9 +48,7 @@ Start editing the **```templates/index.html```** file
 
 Use **```css/less/variables.less```** to define less variables
 
-Use **```css/less/styles.less```** to define generic css
-
-Use **```css/less/screen-*-min.less```** to define media query specific css
+Use **```css/less/styles.less```** to define your css
 
 Use Mixins:
 ```
