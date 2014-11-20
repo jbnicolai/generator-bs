@@ -73,7 +73,9 @@ Use Mixins:
 
 ###Todo: 
 - Grunt task for distribution build
-- Ability to choose responsive menu plugin
+- Grouping media queries css together
+- Pretty formatted distribution build
+- Ability to choose responsive menu jquery plugin
 - Support multiple pages instead of only index.html
 
 ###Issue Tracking:
