@@ -1,4 +1,4 @@
-# An Yeoman Generator for Bootstrap Projects:
+# A Yeoman Generator for Bootstrap Projects:
 
  - [LESS](http://lesscss.org/)
  - Bootstrap mixins
